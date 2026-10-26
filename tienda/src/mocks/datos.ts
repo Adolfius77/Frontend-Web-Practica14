@@ -1,0 +1,58 @@
+const productos = [
+  {
+    id: 1,
+    nombre: "Camiseta básica",
+    descripcion: "Camiseta de algodón 100% en color blanco.",
+    precio: 40,
+    categoria: "Ropa",
+    imagen: "https://placehold.co/300x200?text=Camiseta",
+    stock: 25,
+  },
+  {
+    id: 2,
+    nombre: "Taza de cerámica",
+    descripcion: "Taza de 350 ml apta para microondas.",
+    precio: 50,
+    categoria: "Hogar",
+    imagen: "https://placehold.co/300x200?text=Taza",
+    stock: 40,
+  },
+  {
+    id: 3,
+    nombre: "Gorra deportiva",
+    descripcion: "Gorra ajustable con protección UV.",
+    precio: 60,
+    categoria: "Accesorios",
+    imagen: "https://placehold.co/300x200?text=Gorra",
+    stock: 15,
+  },
+  {
+    id: 4,
+    nombre: "Cuaderno",
+    descripcion: "Cuaderno de 100 hojas a rayas, tamaño carta.",
+    precio: 35,
+    categoria: "Papelería",
+    imagen: "https://placehold.co/300x200?text=Cuaderno",
+    stock: 60,
+  },
+  {
+    id: 5,
+    nombre: "Audífonos",
+    descripcion: "Audífonos inalámbricos con estuche de carga.",
+    precio: 450,
+    categoria: "Electrónica",
+    imagen: "https://placehold.co/300x200?text=Audifonos",
+    stock: 8,
+  },
+  {
+    id: 6,
+    nombre: "Mochila",
+    descripcion: "Mochila resistente al agua con compartimento para laptop.",
+    precio: 320,
+    categoria: "Accesorios",
+    imagen: "https://placehold.co/300x200?text=Mochila",
+    stock: 12,
+  },
+] as const;
+
+export default productos;
