@@ -1,4 +1,4 @@
-Preguntas
+## Preguntas
 ¿por qué en la pestaña Red salen dos peticiones al cargar?
 es por StrictMode en desarrollo, react monta dos veces para detectar problemas.
 
